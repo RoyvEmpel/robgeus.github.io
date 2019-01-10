@@ -4,21 +4,32 @@
 		<meta charset="UTF-8" />
 		<title></title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link href="css/style.css" type="text/css" rel="stylesheet"/>
+        <link href="css/reset.css" type="text/css" rel="stylesheet"/>
+        <link href="css/background.css" type="text/css" rel="stylesheet"/>
+        <link href="css/keyboard.css" type="text/css" rel="stylesheet"/>
+		<link href="css/scherm.css" type="text/css" rel="stylesheet"/>
+        <link href="css/pc.css" type="text/css" rel="stylesheet"/>
+        <script src="js/keyboard.js"></script>
         <script src="js/typing.js"></script>
 	</head>
 	<body onload="startup()">
-    <!--triggers the startup onload-->
 		<main>
+            
+            <div id="tafel">
+                <button id="keyboard" onclick="input()"></button>
+                
+            </div>
             <ul id="schermborder">
+                
                 <li id="scherm">
+                    
                     <p id="dos"></p>
-                    <p id="print1"></p>
+                    <div id="pc"></div>
                 </li>
+                
             </ul>
-        </main>	
-        <button onclick="typeWriter()">Click me</button>
-        <p id="demo"></p>
+            
+        </main>
         
 	</body>
 </html>

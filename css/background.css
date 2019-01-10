@@ -1,0 +1,12 @@
+body{
+    overflow: hidden;
+    background-image: url(../content/muur.png);
+}
+
+#tafel{
+    width: 100%;
+    height: 400px;
+    background-image: url(../content/tafel.png);
+    position:fixed;
+    top: 64%;
+}
